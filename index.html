@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Сторінка про цікаві факти та основну інформацію про Україну">
+    <meta name="author" content="Твоє Ім'я">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Цікаві факти про Україну">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/ukraine">
+    <meta property="og:image" content="https://example.com/images/ukraine.png">
+    <meta property="og:description" content="Дізнайтеся про історію, культуру та визначні місця України.">
+    <title>Цікаві факти про Україну</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- CSS стилі -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #fff3cd; /* Світлий жовтий фон */
+        }
+
+        .header {
+            background-color: rgba(255, 223, 51, 0.8); /* Прозорий жовтий фон */
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        .nav a {
+            color: black; /* Змінено на чорний для кращого контрасту */
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff9e6; /* Світлий жовтий фон для секцій */
+        }
+
+        .section:nth-child(odd) {
+            background-color: #ffeb99; /* Трохи темніший жовтий фон для непарних секцій */
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        table th, table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #ffcc00; /* Жовтий фон для заголовків таблиці */
+            color: black;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-top: 10px;
+        }
+
+        form input[type="text"], form input[type="email"], form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        form input[type="submit"] {
+            background-color: #ffcc00; /* Жовтий фон для кнопки */
+            color: black;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #e6b800; /* Трохи темніший жовтий при наведенні */
+        }
+
+        .footer {
+            background-color: #ffcc00; /* Жовтий фон для футера */
+            color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Україна - серце Східної Європи</h1>
+        <p><time datetime="2024-09-12">12 вересня 2024 року</time></p>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#історія" title="Дізнатися про історію України">Історія</a></li>
+            <li><a href="#географія" title="Дізнатися про географію України">Географія</a></li>
+            <li><a href="#культура" title="Про культуру України">Культура</a></li>
+            <li><a href="#цікаві-факти" title="Цікаві факти про Україну">Цікаві факти</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="історія" class="section">
+            <h2>Історія України</h2>
+            <p>Україна має багатий історичний спадок, який включає періоди Київської Русі, Гетьманщини, а також боротьбу за незалежність у ХХ столітті.</p>
+            <blockquote cite="https://example.com/history">
+                "Історія України є важливою частиною європейської та світової спадщини, яка вплинула на розвиток цілих регіонів."
+            </blockquote>
+        </section>
+
+        <section id="географія" class="section">
+            <h2>Географія України</h2>
+            <p>Україна відома своїми величними Карпатами, численними річками, озерами та родючими землями, що робить її однією з найзеленіших країн Європи.</p>
+            <figure>
+                <img src="images/Ukraina.jpg" alt="Пейзаж України">
+                <figcaption>Українські Карпати - дивовижна природа країни</figcaption>
+            </figure>
+        </section>
+
+        <section id="культура" class="section">
+            <h2>Культура та традиції України</h2>
+            <p>Культура України сформована під впливом слов'янських, європейських та азійських традицій. В Україні відзначають численні фестивалі, що демонструють народну музику, танці та традиційну кухню.</p>
+            <address>
+                <strong>Туристичний офіс України</strong><br>
+                вул. Центральна, 1<br>
+                Київ, Україна<br>
+                Телефон: <a href="tel:+380123456789">+380 123 456 789</a><br>
+                Електронна пошта: <a href="mailto:info@ukraine.travel">info@ukraine.travel</a>
+            </address>
+        </section>
+
+        <section id="цікаві-факти" class="section">
+            <h2>Цікаві факти про Україну</h2>
+            <ul>
+                <li>Україна є найбільшою країною в Європі за площею.</li>
+                <li>В Україні розташований найбільший у світі музей народної архітектури та побуту — Пирогів.</li>
+                <li>Київ, столиця України, є одним з найстаріших міст Європи.</li>
+                <li>Україна відома своєю смачною кухнею, зокрема борщем і варениками.</li>
+            </ul>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Інші цікаві факти про країни Європи</h3>
+        <p>Ознайомтеся з <a href="https://example.com/europe" target="_blank">статтями про країни Європи</a>, щоб дізнатися більше про культуру та історію сусідніх країн.</p>
+    </aside>
+
+    <footer class="footer">
+        <p>&copy; 2024 <a href="mailto:info@ukraine.travel">info@ukraine.travel</a></p>
+        <p><a href="https://example.com/privacy" target="_blank">Політика конфіденційності</a></p>
+    </footer>
+</body>
+</html>
